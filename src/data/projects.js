@@ -1,95 +1,35 @@
-export const projectsData = [
+import image4 from "../assets/image-4.png"
+import image2 from "../assets/image-2.avif";
 
+export const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Website",
-    image: "/images/ecommerce.jpg",
+    title: "Portfolio Website",
     description:
-      "A full-stack e-commerce application with authentication, shopping cart, product management and order processing.",
-
-    tech: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Bootstrap"
-    ],
-
-    github:
-      "https://github.com/HareeshRavilala",
-
-    demo:
-      "https://your-demo-link.com"
+      "A modern responsive portfolio built with React and Bootstrap to showcase projects and skills.",
+    tech: ["Html5","CSS","JavaScript","React", "Bootstrap", "Node.js","MySQL","axios"],
+    image: image4,
+    //github: "https://github.com/HareeshRavilala",
+    //demo: "https://example.com"
   },
-
   {
     id: 2,
-    title: "Employee Management System",
-
-    image:
-      "/images/employee.jpg",
-
+    title: "E-commerce Dashboard",
     description:
-      "Employee management platform for handling employee records, CRUD operations and reporting.",
-
-    tech: [
-      "React",
-      "Express",
-      "MongoDB"
-    ],
-
-    github:
-      "https://github.com/HareeshRavilala",
-
-    demo:
-      "https://your-demo-link.com"
+      "A dashboard for managing products, users, and orders with a clean analytics layout.",
+    tech: ["Html5","CSS","JavaScript","React", "Bootstrap", "Node.js","MySQL","axios"],
+    image: image2,
+    //github: "https://github.com/HareeshRavilala",
+    //demo: "https://example.com"
   },
-
-  {
-    id: 3,
-    title:
-      "Address Management Application",
-
-    image:
-      "/images/address.jpg",
-
-    description:
-      "Address management solution with search, pagination, sorting and secure API integration.",
-
-    tech: [
-      "React",
-      "Node.js",
-      "MySQL"
-    ],
-
-    github:
-      "https://github.com/HareeshRavilala",
-
-    demo:
-      "https://your-demo-link.com"
-  },
-
-  {
-    id: 4,
-    title:
-      "Online Booking System",
-
-    image:
-      "/images/booking.jpg",
-
-    description:
-      "Modern booking system with availability checking, scheduling and payment integration support.",
-
-    tech: [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-
-    github:
-      "https://github.com/HareeshRavilala",
-
-    demo:
-      "https://your-demo-link.com"
-  }
-
+  // {
+  //   id: 3,
+  //   title: "Task Management App",
+  //   description:
+  //     "A collaborative task planner with drag-and-drop workflow and user authentication.",
+  //   tech: ["React", "Express", "MySQL"],
+  //   image: image1,
+  //   github: "https://github.com/HareeshRavilala",
+  //   demo: "https://example.com"
+  // }
 ];

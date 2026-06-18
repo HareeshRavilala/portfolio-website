@@ -18,7 +18,7 @@ function About() {
 
         {/* Professional Summary */}
 
-        <div className="glass p-1 rounded-2 mb-2">
+        <div className="glass p-1 rounded-2 mb-4">
 
           <h3>
             Professional Summary
@@ -34,7 +34,7 @@ function About() {
 
         {/* Career Objective */}
 
-        <div className="glass p-1 rounded-2 mb-2">
+        <div className="glass p-1 rounded-2 mb-4">
 
           <h3>
             Career Objective
@@ -53,7 +53,7 @@ function About() {
 
         {/* Personal Details */}
 
-        <div className="glass p-1 rounded-2 mb-2">
+        <div className="glass p-1 rounded-2 mb-4">
 
           <h3>
             Personal Details
@@ -70,7 +70,7 @@ function About() {
 
               <p>
                 <strong>Location:</strong>
-                {" "}India
+                {" "}India,Hyderabad
               </p>
 
             </div>
@@ -95,7 +95,7 @@ function About() {
 
         {/* Education */}
 
-        <div className="glass p-1 rounded-2 mb-2">
+        <div className="glass p-1 rounded-2 mb-4">
 
           <h3 className="mb-4">
             Education Timeline
@@ -144,7 +144,7 @@ function About() {
 
         {/* Experience Highlights */}
 
-        <div className="glass p-1 rounded-2 mb-2">
+        <div className="glass p-1 rounded-2 mb-4">
 
           <h3>Experience Highlights</h3>
 

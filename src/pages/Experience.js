@@ -1,163 +1,94 @@
-import { motion } from "framer-motion";
+{/* Work Experience */}
 
 function Experience() {
-
   return (
+    <div className="glass p-4 rounded-4 mb-4">
 
-    <div className="container py-5 mt-5">
+  <h3>
+    Work Experience
+  </h3>
 
-      <motion.div
-        initial={{
-          opacity: 0
-        }}
-        animate={{
-          opacity: 1
-        }}
-      >
+  <div className="timeline">
 
-        <h1 className="section-title">
-          Experience
-        </h1>
+    <div className="timeline-item">
 
-        {/* Internship */}
+      <h5>
+        Systems Engineer | ReactJS Developer
+      </h5>
 
-        <div className="glass p-4 rounded-4 mb-4">
+      <p>
+        <strong>TATA Consultancy Services Ltd., Hyderabad</strong>
+      </p>
 
-          <h3>
-            Internship Experience
-          </h3>
+      <ul>
+        <li>
+          Developed and maintained scalable ReactJS applications for enterprise-level and high-traffic business operations.
+        </li>
 
-          <div className="timeline">
+        <li>
+          Built 20+ reusable UI components using ReactJS, Hooks, and Bootstrap, improving code reusability by 40% and accelerating development cycles.
+        </li>
 
-            <div className="timeline-item">
+        <li>
+          Optimized frontend performance by 35% through lazy loading, memoization, code splitting, and efficient state management techniques.
+        </li>
 
-              <h5>
-               reactJS Developer 
-              </h5>
+        <li>
+          Integrated REST APIs using Axios/Fetch for real-time operations such as tracking, inventory, and user management.
+        </li>
 
-              <p>
-                Worked on React.js
-                applications, REST APIs,
-                reusable components,
-                and backend integration.
-              </p>
+        <li>
+          Implemented centralized state management using Redux and Redux Toolkit, reducing redundant API calls and improving application scalability.
+        </li>
 
-              <small>
-                Jan 2024 - Jun 2024
-              </small>
+        <li>
+          Developed secure JWT-based authentication and role-based access control using React Router.
+        </li>
 
-            </div>
+        <li>
+          Collaborated with cross-functional teams in Agile/Scrum environments to deliver quality releases on time.
+        </li>
+      </ul>
 
-          </div>
-
-        </div>
-
-        {/* Work Experience */}
-
-        <div className="glass p-4 rounded-4 mb-4">
-
-          <h3>
-            Work Experience
-          </h3>
-
-          <div className="timeline">
-
-            <div className="timeline-item">
-
-              <h5>
-                ReactJS Developer
-              </h5>
-
-              <p>
-                Building scalable web
-                applications using
-                React.js, Node.js,
-                Express.js and MongoDB.
-              </p>
-
-              <small>
-                Current
-              </small>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        {/* Achievements */}
-
-        <div className="glass p-4 rounded-4 mb-4">
-
-          <h3>
-            Achievements
-          </h3>
-
-          <ul>
-
-            <li>
-              Successfully developed
-              multiple full-stack projects.
-            </li>
-
-            <li>
-              Built responsive and
-              reusable UI components.
-            </li>
-
-            <li>
-              Implemented secure
-              authentication systems.
-            </li>
-
-            <li>
-              Optimized application
-              performance.
-            </li>
-
-            <li>
-              Worked with APIs and
-              database integration.
-            </li>
-
-          </ul>
-
-        </div>
-
-        {/* Certifications */}
-
-        <div className="glass p-4 rounded-4">
-
-          <h3>
-            Certifications
-          </h3>
-
-          <ul>
-
-            <li>
-              ReactJS Development
-            </li>
-
-            <li>
-              JavaScript Programming
-            </li>
-
-            <li>
-              Full Stack Development
-            </li>
-
-            <li>
-              Git & GitHub
-            </li>
-
-          </ul>
-
-        </div>
-
-      </motion.div>
+      <small>
+        May 2022 – Present
+      </small>
 
     </div>
-  );
-}
+    <div className="timeline-item">
+      <h5>  Project Experience</h5>
+      <strong><p>Temple booking & Management System</p></strong>
 
+      <ul>
+        <li>Developed scalable order management and dashboard modules using ReactJS component-based architecture for
+high-traffic production environments.
+</li>
+<li>
+  Improved code maintainability by 40% through development of reusable and modular frontend components.
+</li>
+<li>
+  Integrated RESTful APIs using Axios for real-time inventory updates, order processing, and customer account
+management
+</li>
+<li>
+  Optimized Redux workflows, reducing re-renders and improving UI performance by 30%.
+</li>
+<li>
+  Implemented secure navigation workflows and protected routes using React Router.
+</li>
+<li>
+  Enhanced responsive design and cross-browser compatibility across desktop, tablet, and mobile devices.
+</li>
+<li>
+  Collaborated with backend & QA teams in Agile/Scrum for timely, stable releases.
+</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
+  )
+}
 export default Experience;

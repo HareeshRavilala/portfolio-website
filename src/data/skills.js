@@ -6,12 +6,13 @@ import {
   FaBootstrap,
   FaNodeJs,
   FaDatabase,
-  FaGitAlt,
   FaGithub
 } from "react-icons/fa";
 
-export const skillsData = [
+import { SiJquery } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
 
+export const skillsData = [
   // Frontend
   {
     id: 1,
@@ -20,7 +21,6 @@ export const skillsData = [
     category: "Frontend",
     icon: <FaHtml5 />
   },
-
   {
     id: 2,
     name: "CSS3",
@@ -28,7 +28,6 @@ export const skillsData = [
     category: "Frontend",
     icon: <FaCss3Alt />
   },
-
   {
     id: 3,
     name: "JavaScript",
@@ -36,7 +35,6 @@ export const skillsData = [
     category: "Frontend",
     icon: <FaJs />
   },
-
   {
     id: 4,
     name: "React.js",
@@ -44,7 +42,6 @@ export const skillsData = [
     category: "Frontend",
     icon: <FaReact />
   },
-
   {
     id: 5,
     name: "Bootstrap",
@@ -52,37 +49,26 @@ export const skillsData = [
     category: "Frontend",
     icon: <FaBootstrap />
   },
-
-  // Backend
-
   {
     id: 6,
+    name: "jQuery",
+    percentage: 85,
+    category: "Frontend",
+    icon: <SiJquery />
+  },
+
+  // Backend
+  {
+    id: 7,
     name: "Node.js",
     percentage: 85,
     category: "Backend",
     icon: <FaNodeJs />
   },
 
-  // {
-  //   id: 7,
-  //   name: "Express.js",
-  //   percentage: 82,
-  //   category: "Backend",
-  //   icon: <FaNodeJs />
-  // },
-
   // Database
-
-  // {
-  //   id: 8,
-  //   name: "MongoDB",
-  //   percentage: 85,
-  //   category: "Database",
-  //   icon: <FaDatabase />
-  // },
-
   {
-    id: 9,
+    id: 8,
     name: "MySQL",
     percentage: 80,
     category: "Database",
@@ -90,37 +76,32 @@ export const skillsData = [
   },
 
   // Tools
-
   {
-    id: 10,
-    name: "Git",
-    percentage: 90,
-    category: "Tools",
-    icon: <FaGitAlt />
-  },
-
-  {
-    id: 11,
+    id: 9,
     name: "GitHub",
     percentage: 90,
     category: "Tools",
     icon: <FaGithub />
   },
-
   {
-    id: 12,
+    id: 10,
     name: "VS Code",
     percentage: 95,
     category: "Tools",
     icon: "💻"
   },
-
   {
-    id: 13,
+    id: 11,
     name: "Postman",
     percentage: 85,
     category: "Tools",
     icon: "📮"
+  },
+  {
+    id:12,
+    name: "Redux",
+    percentage: 80,
+    category: "Frontend",
+    icon: <TbBrandRedux />
   }
-
 ];

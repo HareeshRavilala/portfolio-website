@@ -4,7 +4,7 @@ import {
   FaPhone,
   FaMapMarkerAlt,
   FaGithub,
-  FaLinkedin
+  FaLinkedin,
 } from "react-icons/fa";
 
 function Contact() {
@@ -14,70 +14,56 @@ function Contact() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <h1 className="section-title">Contact</h1>
+        <h1 className="section-title text-center mb-5">
+          Contact
+        </h1>
 
-        <div className="row g-4">
-          <div className="col-lg-6">
-            <div className="glass p-4 rounded-4 h-100">
-              <h3 className="mb-3">Let's Connect</h3>
-              <p>
-                I’m always open to discussing new projects, opportunities,
-                and collaborations.
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-10">
+            <div className="glass p-5 rounded-4 text-center">
+
+              <strong><h3 className="mb-4">Contact Details</h3></strong>
+
+              <p className="mb-4">
+                I am actively seeking new opportunities as a ReactJS Developer.
+                If you have a suitable role or would like to discuss potential
+                opportunities, feel free to contact me via email or phone.
+                I look forward to connecting with you.
               </p>
 
-              <div className="d-flex align-items-center mb-3">
+              <div className="d-flex justify-content-center align-items-center mb-3">
                 <FaEnvelope className="me-2" />
-                <span>your-email@example.com</span>
+                <span>ravilalahareesh3@gmail.com</span>
               </div>
 
-              <div className="d-flex align-items-center mb-3">
+              <div className="d-flex justify-content-center align-items-center mb-3">
                 <FaPhone className="me-2" />
-                <span>+91 xxxxxxxxxx</span>
+                <span>+91 XXXXXXXXXX</span>
               </div>
 
-              <div className="d-flex align-items-center mb-3">
+              <div className="d-flex justify-content-center align-items-center mb-4">
                 <FaMapMarkerAlt className="me-2" />
                 <span>Hyderabad, India</span>
               </div>
 
-              <div className="d-flex gap-3 mt-4">
+              <div className="d-flex justify-content-center gap-4">
                 <a
-                  href="https://github.com/HareeshRavilala"
+                 // href="https://github.com/HareeshRavilala"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaGithub size={24} />
+                  <FaGithub size={28} />
                 </a>
+
                 <a
-                  href="https://linkedin.com/in/your-profile"
+                  //href="https://linkedin.com/in/your-linkedin-profile"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaLinkedin size={24} />
+                  <FaLinkedin size={28} />
                 </a>
               </div>
-            </div>
-          </div>
 
-          <div className="col-lg-6">
-            <div className="glass p-4 rounded-4">
-              <form>
-                <div className="mb-3">
-                  <label className="form-label">Name</label>
-                  <input className="form-control" type="text" />
-                </div>
-                <div className="mb-3">
-                  <label className="form-label">Email</label>
-                  <input className="form-control" type="email" />
-                </div>
-                <div className="mb-3">
-                  <label className="form-label">Message</label>
-                  <textarea className="form-control" rows="5"></textarea>
-                </div>
-                <button className="btn btn-primary" type="submit">
-                  Send Message
-                </button>
-              </form>
             </div>
           </div>
         </div>

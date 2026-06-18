@@ -16,29 +16,19 @@ import ThemeProvider from "./context/ThemeContext";
 function App() {
   return (
     <ThemeProvider>
-
       <Navbar />
-
       <ScrollToTop />
 
       <Routes>
-
-        <Route path="/"element={<Home />}/>
-
-        <Route path="/about"element={<About />}/>
-
-        <Route path="/skills"element={<Skills />}/>
-
-        <Route path="/projects" element={<Projects />}/>
-
-        <Route path="/experience"element={<Experience />}/>
-
-        <Route path="/contact"element={<Contact />}/>
-
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <Footer />
-
     </ThemeProvider>
   );
 }
