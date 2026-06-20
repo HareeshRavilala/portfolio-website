@@ -39,7 +39,8 @@ function Hero() {
             <img
               src={assets}
               alt="Hareesh Ravilala"
-              className="profile-img"
+              className="rounded-circle img-fluid"
+  style={{ width: "350px", height: "350px", objectFit: "cover" }}
             />
           </div>
         </div>
