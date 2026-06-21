@@ -1,6 +1,12 @@
 body{
   font-family:'Poppins',sans-serif;
+  margin:0;
   transition:0.3s;
+  overflow-x:hidden;
+}
+
+#root{
+  min-height:100vh;
 }
 
 .light{
@@ -17,6 +23,48 @@ body{
   min-height:100vh;
   display:flex;
   align-items:center;
+  padding:7rem 0 4rem;
+}
+
+.hero-title{
+  font-size:clamp(2.8rem, 5vw, 4.5rem);
+  line-height:1.1;
+  margin-bottom:1rem;
+}
+
+.hero-subtitle{
+  font-size:clamp(1.2rem, 2vw, 1.8rem);
+  margin-bottom:0.75rem;
+}
+
+.hero-text{
+  max-width:58ch;
+  margin:0 auto 1rem;
+  font-size:1rem;
+  line-height:1.7;
+}
+
+.hero-image{
+  width:min(100%, 350px);
+  max-width:350px;
+  aspect-ratio:1;
+  object-fit:cover;
+  border-radius:50%;
+  box-shadow:0 0 30px rgba(0,0,0,.2);
+  display:block;
+  margin:0 auto;
+}
+
+.hero-socials a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  color:inherit;
+  transition:transform .2s ease;
+}
+
+.hero-socials a:hover{
+  transform:translateY(-2px);
 }
 
 .profile-img{
@@ -45,7 +93,25 @@ body{
   border:1px solid rgba(255,255,255,.2);
 }
 
+@media(max-width:992px){
+  .hero{
+    padding-top:6rem;
+  }
+
+  .hero-text{
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
 @media(max-width:768px){
+  .hero{
+    padding-top:7rem;
+  }
+
+  .hero-image{
+    width:min(280px, 78vw);
+  }
 
   .profile-img{
     width:220px;

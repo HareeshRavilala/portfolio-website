@@ -6,41 +6,44 @@ function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
+        <div className="row align-items-center g-4 g-lg-5">
+          <div className="col-12 col-lg-8 text-center text-lg-start">
             <motion.h1
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              className="hero-title"
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
             >
               Hi, I&apos;m
               <span className="gradient"> Hareesh Ravilala</span>
             </motion.h1>
 
-            <h3>ReactJS Developer</h3>
-            <p>Building modern web applications with React, Node.js</p>
+            <h3 className="hero-subtitle">ReactJS Developer</h3>
+            <p className="hero-text">
+              Building modern web applications with React, Node.js, and clean UI design.
+            </p>
 
-            <div className="d-flex gap-3">
+            <div className="d-flex justify-content-center justify-content-lg-start gap-3 hero-socials">
               <a
-                //href="https://github.com/HareeshRavilala"
                 href="#"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="GitHub"
               >
                 <FaGithub size={30} />
               </a>
 
-              <a href="#">
+              <a href="#" aria-label="LinkedIn">
                 <FaLinkedin size={30} />
               </a>
             </div>
           </div>
 
-          <div className="col-lg-6 text-center">
+          <div className="col-12 col-lg-4 text-center">
             <img
               src={assets}
               alt="Hareesh Ravilala"
-              className="rounded-circle img-fluid"
-  style={{ width: "350px", height: "350px", objectFit: "cover" }}
+              className="hero-image"
             />
           </div>
         </div>
