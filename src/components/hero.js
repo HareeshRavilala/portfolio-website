@@ -20,22 +20,25 @@ function Hero() {
 
             <h3 className="hero-subtitle">ReactJS Developer</h3>
             <p className="hero-text">
-              Building modern web applications with React, Node.js, and clean UI design.
+              ReactJS Developer with 4 years of experience building scalable,
+              high-performance web applications using ReactJS, JavaScript
+              (ES6+), TypeScript, Redux, and REST APIs. Skilled in
+              component-based architecture, JWT authentication, performance
+              optimization, responsive UI development, and Agile methodologies.
             </p>
-
             <div className="d-flex justify-content-center justify-content-lg-start gap-3 hero-socials">
-              <a
+              {/* <a
                 href="#"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
               >
                 <FaGithub size={30} />
-              </a>
+              </a> */}
 
-              <a href="#" aria-label="LinkedIn">
+              {/* <a href="#" aria-label="LinkedIn">
                 <FaLinkedin size={30} />
-              </a>
+              </a> */}
             </div>
           </div>
 

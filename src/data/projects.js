@@ -7,17 +7,17 @@ export const projectsData = [
     title: "Portfolio Website",
     description:
       "A modern responsive portfolio built with React and Bootstrap to showcase projects and skills.",
-    tech: ["Html5","CSS","JavaScript","React", "Bootstrap", "Node.js","MySQL","axios"],
+    tech: ["Html5","CSS","JavaScript","React", "Bootstrap", "Node.js","axios"],
     image: image4,
     //github: "https://github.com/HareeshRavilala",
-    //demo: "https://example.com"
+    demo: "https://hareeshravilala-portfolio.vercel.app/"
   },
   {
     id: 2,
     title: "E-commerce Dashboard",
     description:
       "A dashboard for managing products, users, and orders with a clean analytics layout.",
-    tech: ["Html5","CSS","JavaScript","React", "Bootstrap", "Node.js","MySQL","axios"],
+    tech: ["Html5","CSS","JavaScript","React", "Bootstrap", "Node.js","axios"],
     image: image2,
     //github: "https://github.com/HareeshRavilala",
     //demo: "https://example.com"

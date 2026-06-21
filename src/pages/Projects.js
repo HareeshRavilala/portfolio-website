@@ -8,11 +8,9 @@ import { projectsData } from "../data/projects";
 
 function Projects() {
 
-  const [search, setSearch] =
-    useState("");
+  const [search, setSearch] = useState("");
 
-  const [filter, setFilter] =
-    useState("All");
+  const [filter, setFilter] = useState("All");
 
   const technologies = [
     "All",
@@ -69,16 +67,9 @@ function Projects() {
 
           <div className="col-md-6 mx-auto">
 
-            <input
-              type="text"
-              className="form-control project-search"
-              placeholder="Search Projects..."
+            <input type="text" className="form-control project-search" placeholder="Search Projects..."
               value={search}
-              onChange={e =>
-                setSearch(
-                  e.target.value
-                )
-              }
+              onChange={e =>setSearch(e.target.value)}
             />
 
           </div>

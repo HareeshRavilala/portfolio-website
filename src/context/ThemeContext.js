@@ -8,7 +8,9 @@ const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     document.body.className = theme;
-  }, [theme]);
+  }, 
+  [theme]
+);
 
   const toggleTheme = () => {
     setTheme(
